@@ -30,8 +30,15 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  border-radius: 60px;
 }
 
 button:hover {
   background-color: darkgreen;
+}
+
+.butto {
+  display: flex;
+  height: 80vh;
+  align-items: flex-end;
 }
